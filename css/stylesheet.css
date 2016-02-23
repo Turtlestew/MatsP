@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+body {
+    background-color: #AEDDE3;
+}
+
+div#wrapper {
+    width: 700px;
+    height: 690px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#header {
+    width: 700px;
+    height: 100px;
+    
+    border: 1px solid black;
+    background-image: url(../images/forest.png);
+}
+
+div#header h1 {
+    text-align: center;
+    line-height: 100px;
+    margin: 0px;
+    font-family: 'Sigmar One', cursive;
+    color: #ffffff;
+}
+
+div#header a {
+    width: 700px;
+    height: 100px;
+    text-decoration: none;
+}
+
+div#navbar {
+    width: 700px;
+    height: 40px;
+    
+    border: 1px solid black;
+    border-top: none;
+}
+
+div#navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #5E8C2A;
+}
+
+div#navbar li {
+    float: left;
+}
+
+div#navbar ul li a {
+    display: block;
+    width: 60px; 
+    line-height: 40px;
+    padding-left: 39.5px;
+    padding-right: 39.5px;
+    text-align: center;
+    text-decoration: none;
+    border-left: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+div#navbar ul li a:hover {
+    background-color: rgba(50, 86, 14, 0.85);
+} 
+
+div#body {
+    width: 700px;
+    height: 500px;
+    
+    margin-top: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+div.shadow {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.backgroundcolor {
+    background-color: white;
+}
+
+div#bodyTop {
+    width: 700px;
+    height: 40px;
+}
+
+.rubrik {
+    font-family: 'Montserrat', sans-serif;
+    color: #5E8C2A;
+}
+
+div#bodyTop h3 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+div#bodyRest {
+    width: 700px;
+    height: 431px;
+}
+
+.bilder {
+    width: auto; 
+    height: auto;
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+}
+
+.bilder img {
+    display: inline;
+    width: 200px;
+    height: 140px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.bilder2 {
+    width: auto; 
+    height: auto;
+    
+    padding: 5px;
+    margin: 4px;
+    float: left;
+    text-align: center;
+}
+
+.bilder2 img {
+    display: inline;
+    width: 200px;
+    height: 140px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+form#boka {
+    width: 200px;
+    height: auto;
+    
+    margin-left: 50px;
+}
+
+form#boka p label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form#boka p label .required {
+    color: red;
+}
+
+form#boka p input {
+    border-radius: 5px;
+    outline: none;
+}
+
+form#boka p input:focus {
+    border-radius: 5px;
+    box-shadow: 0 0 2pt 1pt #5E8C2A;
+}
+
+form#boka p input[type="number"]::-webkit-inner-spin-button,
+form#boka p input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form#boka p select {
+    outline: none;
+}
+
+form#boka p select:focus {
+    box-shadow: 0 0 2pt 1pt #5E8C2A;
+}
+
+form#boka p select option {
+    outline: none;
+}
+
+form#boka p select option:focus {
+    box-shadow: 0 0 2pt 1pt #5E8C2A;
+}
+
+div#startTextBox {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    
+    margin-left: 50px;
+}
+
+.textBox {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#bilderStart {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    
+    margin-left: 50px;
+    position: absolute
+}
+
+div#bilderStart #bild1 {
+    width: 300px;
+    height: auto;
+    
+    border: 1px solid black;
+}
+
+div#bilderStart #bild2 {
+    width: 300px;
+    height: auto;
+    
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+div#bokaTextBox {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    
+    margin-left: 50px;
+}
+
+div#bilderBoka {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+div#bilderBoka #bild1 {
+    border: 1px solid black;
+}
+
+div#hittaTextBox {
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    
+    margin-left: 35px;
+    position: absolute;
+}
+
+div#googleMap {
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    
+    margin-left: 30px;
+    border: 1px solid black;
+}
+
+div#kontaktList {
+    width: 300px;
+    height: auto;
+    
+    margin-left: 35px;
+}
+
+div#kontaktTextBox {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-left: 35px;
+}
+
+div#kontaktBilder {
+    display: inline-block;    
+    width: 300px;
+    height: 420px;
+    
+    position: absolute;
+    top: 40px;
+    margin-left: 20px;
+}
+
+div#kontaktBilder #bild1 {
+    width: 300px;
+    height: 420px;
+    
+    border: 1px solid black;
+}
+
+div#tackTextBox {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    
+    margin-left: 35px;
+    position: absolute;
+}
+
+div#footer {
+    width 350px;
+    height: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+div#footer p {
+    text-align: center;
+}
