@@ -11,3 +11,9 @@ div#wrapper {
     
     border: 1px solid black;
 }
+
+div#wrapper h1 {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
